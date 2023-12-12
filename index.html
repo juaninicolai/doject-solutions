@@ -36,11 +36,11 @@
 
 </head>
 
-<body class=" bg-primary">
- 	<header class="container bg-primary flex justify-between items-center h-24">
+<body class="bg-primary">
+	<header class="container flex justify-between items-center md:h-20 h-24">
 		<section>
 			<a id="home">
-				<p class="text-white text-6xl md:text-4xl font-semibold md:pl-32 pl-24">DoJect</p>
+				<p class="text-white text-6xl lg:text-5xl md:text-4xl font-semibold md:pl-32 pl-10">DoJect</p>
 			</a>
 		</section>
 		<section>
@@ -53,124 +53,136 @@
 				</a>
 			</ul>
 		</section>
-	</header> 
+	</header>
 
-	<main>
 
-		<div class="relative m-8">
-			<img src="./img/hero.svg" alt="Imagen principal" class="w-screen hidden md:block" />
-			<section class="container relative 2xl:text-left text-center md:mx-auto md:-top-[30rem]">
-			  <p class="text-white md:text-6xl text-5xl font-semibold md:mt-1 md:pl-24">
+	<div class="relative    md:m-0 m-8 md:h-[46rem]">
+		<img src="./img/hero.svg" alt="Imagen principal" class="w-screen hidden md:block" />
+		<section class="container relative 2xl:text-left text-center md:mx-auto md:-top-[30rem]">
+			<p class="text-white md:text-6xl text-5xl font-semibold md:mt-1 md:pl-24">
 				Transforming project management <br />
 				through data analytics.
-			  </p>
-			  <p class="text-white text-xl font-normal mt-8 md:pl-24">
+			</p>
+			<p class="text-white text-xl font-normal mt-8 md:pl-24">
 				We provide visual dashboards for informed decision-making and to
 				maximize your <br />
 				company's success. Connect with us to elevate your projects to the
 				next level!
-			  </p>
-			</section>
-		  </div>
+			</p>
+		</section>
+	</div>
+	<main class="bg-gradient">
 
-			<div id="about" class="container md:mt-0 grid grid-cols-1 md:grid-cols-2">
-				<section class=" order-2 md:order-1 md:text-left text-center md:ml-48 m-8">
-				  <p class="text-white text-5xl font-semibold mt-4 mb-4">
+		<div id="about" class="container md:mt-0 grid grid-cols-1 md:grid-cols-2">
+			<section class=" order-2 md:order-1 md:text-left text-center md:ml-48">
+				<p class="text-white text-5xl font-semibold mt-4 mb-4">
 					Our story
-				  </p>
-				  <p class="text-white text-xl font-normal">
+				</p>
+				<p class="text-white text-xl font-normal">
 					Founded in 2022, DoJect Solutions is at the forefront of <br />
 					innovation, harmoniously merging the fields of
 					<span class="font-semibold text-orange-600">
-					  Project <br />
-					  Engineering</span
-					>
+						Project <br />
+						Engineering</span>
 					and
 					<span class="font-semibold text-orange-600">Data Sciences</span>.
 					With a vision of
 					<br />
 					revolutionizing industries through cutting-edge solutions, <br />
-					<span class="font-semibold text-orange-600">we bring a fresh perspective to the world of consulting.</span>
-				  </p>
-				  <p class="text-white text-5xl font-semibold mt-8 mb-4">
+					<span class="font-semibold text-orange-600">we bring a fresh perspective to the world of
+						consulting.</span>
+				</p>
+				<p class="text-white text-5xl font-semibold mt-8 mb-4">
 					Our mission
-				  </p>
-				  <p class="text-white text-xl font-normal">
+				</p>
+				<p class="text-white text-xl font-normal">
 					At DoJect Solutions, we are
 					<span class="font-semibold text-orange-600">
-					  driven by a passion for <br />
-					  excellence and a commitment to providing value-added <br />
-					  services</span
-					>. Our multidisciplinary approach integrates <br />
+						driven by a passion for <br />
+						excellence and a commitment to providing value-added <br />
+						services</span>. Our multidisciplinary approach integrates <br />
 					the precision of Project Engineering with the analytical <br />
 					power of Data Sciences, allowing us to address complex <br />
 					challenges with unmatched efficiency.
-				  </p>
+				</p>
+			</section>
+			<section class="m-8 md:mt-4 order-1 md:order-2 text-center ">
+				<img src="./img/mission.svg" alt="mission" class="w-full md:w-[38rem] mx-auto" />
+			</section>
+		</div>
+		<div class="grid gap-8 container ">
+			<div class="md:relative md:p-16 p-8">
+				<section
+					class="absolute mt-72 bg-third p-8 text-white md:left-[55rem] md:mt-[14rem] md:mr-36 mr-8 rounded-2xl">
+					<p class="text-2xl font-bold mb-4">Our Experience</p>
+					<p class="font-bold">Engineering Excellence:</p>
+					<p class="mb-4">
+						Our experienced team of engineers brings extensive experience in
+						the design and execution of projects in various industries. From
+						conception to completion, we ensure that every aspect of a project
+						is meticulously planned and executed flawlessly.
+					</p>
+					<p class="font-bold">Data-Driven Insights:</p>
+					<p>
+						Leveraging advanced analytics and machine learning techniques, our
+						Data Sciences division empowers businesses with actionable
+						insights. We uncover hidden patterns, optimize processes, and
+						promote informed decision-making through data-driven strategies.
+					</p>
 				</section>
-				<section class="m-8 md:mt-4 order-1 md:order-2 text-center ">
-				  <img src="./img/mission.svg" alt="mission" class="w-full md:w-[38rem] mx-auto" />
+				<section>
+					<img src="./img/experience.svg" alt="experience" class="w-[60rem] md:ml-32" />
 				</section>
-			  </div>
-			<div class="grid gap-8 container ">
-				<div class="md:relative md:p-16 p-8">
-					<section class="absolute mt-72 bg-third p-8 text-white md:left-[55rem] md:mt-[14rem] md:mr-36 mr-8 rounded-2xl">
-						<p class="text-2xl font-bold mb-4">Our Experience</p>
-						<p class="font-bold">Engineering Excellence:</p>
-						<p class="mb-4">
-							Our experienced team of engineers brings extensive experience in
-							the design and execution of projects in various industries. From
-							conception to completion, we ensure that every aspect of a project
-							is meticulously planned and executed flawlessly.
-						</p>
-						<p class="font-bold">Data-Driven Insights:</p>
-						<p>
-							Leveraging advanced analytics and machine learning techniques, our
-							Data Sciences division empowers businesses with actionable
-							insights. We uncover hidden patterns, optimize processes, and
-							promote informed decision-making through data-driven strategies.
-						</p>
-					</section>
-					<section>
-						<img src="./img/experience.svg" alt="experience" class="w-[60rem] md:ml-32" />
-					</section>
-				</div>
 			</div>
 		</div>
+		</div>
 
+		<div class="container mt-[40rem] md:mt-0">
+			<hr />
+		</div>
+
+		<footer class=" container md:pl-32 md:pr-32 ">
+			<section class="text-white p-8 flex lg:justify-between lg:flex-row lg:space-x-4 flex-col items-center">
+				<div class="md:text-left text-center mb-4">
+					<a href="#home">
+						<h1 class="text-2xl font-bold">DoJect<br />Solutions</h1>
+					</a>
+				</div>
+				<div class="md:text-left text-center mb-4">
+					<h3 class="font-bold">Join Our Team</h3>
+					<a href="mailto:dojectsolutions@gmail.com?subject=Join Our Team" class="flex items-center">
+						<img src="img/bi_envelope-fill.svg" class="pr-2" alt="Envelope" />
+						<p>dojectsolutions@gmail.com</p>
+					</a>
+					<p>Privacy policy</p>
+				</div>
+				<div class="text-center md:text-left">
+					<h3 class="font-bold">Contact us</h3>
+					<a href="https://www.linkedin.com/company/doject-solutions/" target="_blank"
+						class="flex items-center">
+						<img src="img/linkedin.svg" class="pr-2" alt="LinkedIn" />
+						<p>Doject Solutions</p>
+					</a>
+					<a href="mailto:dojectsolutions@gmail.com?subject=Contact us" class="flex items-center">
+						<img src="img/bi_envelope-fill.svg" class="pr-2" alt="Envelope" />
+						<p>dojectsolutions@gmail.com</p>
+					</a>
+				</div>
+			</section>
+		</footer>
 	</main>
-	<div class="container mt-[40rem] md:mt-0">
-		<hr />
-	</div>
 
-	<footer class="bg-primary container md:pl-32 md:pr-32 ">
-		<section class="text-white p-8 flex lg:justify-between lg:flex-row lg:space-x-4 flex-col items-center">
-		  <div class="md:text-left text-center mb-4">
-			<a href="#home">
-			  <h1 class="text-2xl font-bold">DoJect<br />Solutions</h1>
-			</a>
-		  </div>
-		  <div class="text-center mb-4">
-			<h3 class="font-bold">Join Our Team</h3>
-			<a href="mailto:dojectsolutions@gmail.com?subject=Join Our Team" class="flex items-center">
-			  <img src="img/bi_envelope-fill.svg" class="pr-2" alt="Envelope" />
-			  <p>dojectsolutions@gmail.com</p>
-			</a>
-			<p>Privacy policy</p>
-		  </div>
-		  <div class="text-center">
-			<h3 class="font-bold">Contact us</h3>
-			<a href="https://www.linkedin.com/company/doject-solutions/" target="_blank" class="flex items-center">
-			  <img src="img/linkedin.svg" class="pr-2" alt="LinkedIn" />
-			  <p>Doject Solutions</p>
-			</a>
-			<a href="mailto:dojectsolutions@gmail.com?subject=Contact us" class="flex items-center">
-			  <img src="img/bi_envelope-fill.svg" class="pr-2" alt="Envelope" />
-			  <p>dojectsolutions@gmail.com</p>
-			</a>
-		  </div>
-		</section>
-	  </footer>
-	  
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		/* Añade esta clase para el fondo del degradado */
+		.bg-gradient {
+			background: linear-gradient(#000, #001F3F, #000);
+		}
+	</style>
 </body>
 
 </html>
