@@ -10,7 +10,6 @@
 		content="Transformamos negocios a través de soluciones ingenieriles y consultoría estratégica. Nuestro equipo experto ofrece servicios integrales, desde el análisis de negocios hasta la implementación de soluciones tecnológicas, garantizando eficiencia operativa y resultados sólidos. Descubre cómo podemos optimizar tus procesos y potenciar tu éxito empresarial." />
 	<meta name="keywords"
 		content="Ingeniería, Soluciones, Consultoría, Optimización, Desarrollo, Gestión, Innovación, Eficiencia, Análisis, Estrategias" />
-
 	<script src="https://cdn.tailwindcss.com"></script>
 	<script>
 		tailwind.config = {
@@ -32,33 +31,42 @@
 			},
 		};
 	</script>
+<style>
+	body {
+		margin: 0;
+		padding: 0;
+	}
 
+	.bg-gradient {
+		background: linear-gradient(#000, #001F3F, #000);
+	}
+
+	header {
+		position: relative;
+	}
+
+</style>
 </head>
 
 <body class="bg-primary">
 	<header class="container flex justify-between items-center md:h-20 h-24">
-		<section>
-			<a id="home">
-				<p class="text-white text-6xl lg:text-5xl md:text-4xl font-semibold md:pl-32 pl-24">DoJect</p>
-			</a>
-		</section>
-		<section>
-			<ul class="text-white font-semibold flex space-x-4 md:pr-32">
-				<a href="#" class="hidden md:block">
-					<li>Home</li>
-				</a>
-				<a href="#about" class="hidden md:block">
-					<li>About</li>
-				</a>
-			</ul>
-		</section>
-	</header>
+        <section>
+            <a id="home">
+                <p class="text-white text-5xl lg:text-5xl md:text-4xl font-semibold md:pl-32 pl-8">DoJect</p>
+            </a>
+        </section>
+        <section>
+            <ul class="text-white font-semibold flex space-x-4 md:pr-32 pr-8">
+				<a href="#" class=""><li>Home</li></a>
+                <a href="#about" class=""><li>About</li></a></ul>
+        </section>
+    </header>
 
 
 	<div class="relative    md:m-0 m-8 md:h-[40rem]">
 		<img src="./img/hero.svg" alt="Imagen principal" class="w-screen hidden md:block" />
 		<section class="container relative 2xl:text-left lg:text-left text-center md:mx-auto md:-top-[30rem]">
-			<p class="text-white md:text-6xl text-5xl font-semibold md:mt-1 md:pl-24">
+			<p class="text-white md:text-6xl text-3xl font-semibold md:mt-1 md:pl-24">
 				Transforming project management <br />
 				through data analytics.
 			</p>
@@ -72,36 +80,35 @@
 	</div>
 	<main class="bg-gradient">
 
-		<div id="about" class="container md:pt-40 grid grid-cols-1 md:grid-cols-2">
-			<section class=" order-2 md:order-1 md:text-left text-center md:ml-48">
-				<p class="text-white text-5xl font-semibold mt-4 mb-4">
+		<div id="about" class="container md:pt-40 grid grid-cols-1 md:grid-cols-2 p-8">
+			<section class=" order-2 md:order-md:text-left md:ml-48">
+				<p class="text-white text-5xl text-center font-semibold mt-4 mb-4">
 					Our story
 				</p>
 				<p class="text-white text-xl font-normal">
-					Founded in 2022, DoJect Solutions is at the forefront of <br />
+					Founded in 2022, DoJect Solutions is at the forefront of 
 					innovation, harmoniously merging the fields of
 					<span class="font-semibold text-orange-600">
-						Project <br />
+						Project
 						Engineering</span>
 					and
 					<span class="font-semibold text-orange-600">Data Sciences</span>.
 					With a vision of
-					<br />
-					revolutionizing industries through cutting-edge solutions, <br />
+					revolutionizing industries through cutting-edge solutions,
 					<span class="font-semibold text-orange-600">we bring a fresh perspective to the world of
 						consulting.</span>
 				</p>
-				<p class="text-white text-5xl font-semibold mt-8 mb-4">
+				<p class="text-white text-5xl text-center font-semibold mt-8 mb-4">
 					Our mission
 				</p>
 				<p class="text-white text-xl font-normal">
 					At DoJect Solutions, we are
 					<span class="font-semibold text-orange-600">
-						driven by a passion for <br />
-						excellence and a commitment to providing value-added <br />
-						services</span>. Our multidisciplinary approach integrates <br />
-					the precision of Project Engineering with the analytical <br />
-					power of Data Sciences, allowing us to address complex <br />
+						driven by a passion for
+						excellence and a commitment to providing value-added
+						services</span>. Our multidisciplinary approach integrates
+					the precision of Project Engineering with the analytical
+					power of Data Sciences, allowing us to address complex
 					challenges with unmatched efficiency.
 				</p>
 			</section>
@@ -136,7 +143,7 @@
 			</div>
 		</div>
 
-		<div class="container mt-[40rem] md:mt-0">
+		<div class="container mt-[40rem] md:mt-0 pl-8 pr-8">
 			<hr />
 		</div>
 
@@ -160,6 +167,11 @@
 					<a href="https://www.linkedin.com/company/doject-solutions/" target="_blank"
 						class="flex items-center">
 						<img src="./img/linkedin.svg" class="pr-2" alt="LinkedIn" />
+						<p>Doject Solutions</p>
+					</a>
+					<a href="mailto:admin@dojectsolutions.com?subject=Contact us" class="flex items-center">
+						<img src="./img/bi_envelope-fill.svg" class="pr-2" alt="Envelope" />
+						<p>dojectsolutions@gmail.com</p>
 						<p>DoJect Solutions</p>
 					</a>
 					<a href="mailto:admin@dojectsolutions.com?subject=Contact us" class="flex items-center">
@@ -170,16 +182,12 @@
 			</section>
 		</footer>
 	</main>
-	<style>
-		body {
-			margin: 0;
-			padding: 0;
-		}
-
-		.bg-gradient {
-			background: linear-gradient(#000, #001F3F, #000);
-		}
-	</style>
+			<script>
+				document.getElementById("menu-icon").addEventListener("click", function () {
+					var menu = document.getElementById("menu");
+					menu.classList.toggle("hidden");
+				});
+			</script>
 </body>
 
 </html>
